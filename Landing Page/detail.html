@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" media=" screen and (max-width: 799px)" href="style-mobile.css" />
+  <link rel="stylesheet" media=" screen and (min-width: 800px)" href="style-detail.css" />
+</head>
+
+<body>
+  <script src="app.js"></script>
+  <div class="title">
+    <h1>Level Up your game !</h1>
+  </div>
+  <section>
+    <nav>
+      <div class="navbar">
+        <ul>
+          <li><a class="navbarA" href="index.html">Home</a></li>
+          <li><a class="navbarA" href="about.html">About</a></li>
+          <li><a class="navbarA" href="detail.html">Detail</a></li>
+          <li><a class="navbarA" href="buy.html">Buy</a></li>
+          <li><a class="navbarA" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="left">
+      <div class="bg">
+        <img src="img/Lvlup.png">
+      </div>
+
+    </div>
+
+    <div class="right">
+      <div class="choice">
+          <button class="btn" onclick="FnLookDetail()">Detail</button>
+          <button class="btn" onclick="FnLookProduct()">Product</button>
+          <button class="btn" onclick="FnLookAdvice()">Advice to use</button>
+      </div>
+      <div class="txt"id=txt style="visibility: visible;">
+        <h2>Iced Out</h2>
+        <p>Game booster</p>
+        <h2>Capacity</h2>
+        <p>40 serving, 320 grammes</p>
+        <h3>39.99€</h3>
+        <a href="buy.html"><button class="goToBuy">Add to card !</button></a>
+      </div>
+     <div class="product" id="product" style="visibility: hidden;">
+        <img class="help" src="icones/lu-icons-product-overview-instructions.png">
+          <h2>Iced Out by LevlUp®
+          </h2>
+          <p>LevlUp's Iced Out Edition sets new standards: the label, designed with attention to detail, looks like it's set with
+          diamonds and makes your set-up sparkle.
+          </p>
+          <h2>What does the Iced Out edition taste like?
+          </h2>
+          <p>The Iced Out edition is a fancy raspberry scent from LevlUp that is ultra refreshing!
+          </p>
+      </div>
+      <div class="advice" id="advice" style="visibility: hidden;">
+        <h2>Advice</h2>
+        <p>Mix one scoop (8g of LevlUp Gaming Booster) with 500ml of water. LevlUp is specially designed for gamers and gaming
+        sessions of all kinds. Drink our Gaming Booster® while playing video games.
+        Notes: Do not exceed the recommended daily intake. Daily intake is 1x 8g (rounded measuring spoon). Not suitable for
+        children, teenagers, pregnant and nursing women. Not intended for long-term feeding and should not be used as a
+        substitute for a balanced and varied diet and a healthy lifestyle. Keep out of reach of children. Store in a cool, dry
+        place. Protect from direct heat and light.</p>
+      </div> 
+    </div>
+  </section>
+
+
+</body>
+
+</html>
